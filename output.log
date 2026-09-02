@@ -1,0 +1,5 @@
+Starting Backend API and Serve UI...
+System started. UI available at http://localhost:8000
+127.0.0.1 - - [02/Sep/2026 06:59:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Sep/2026 06:59:55] "GET /app.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Sep/2026 06:59:56] "GET /api/execute HTTP/1.1" 200 -
