@@ -1,0 +1,420 @@
+{
+ "stats": {
+  "nodes": 26,
+  "edges": 53,
+  "components": 1,
+  "cause_degree": 25,
+  "density": 0.1631,
+  "triangles": 33,
+  "berths_occupied": 7,
+  "inner_thirds": 3,
+  "swarm": 3,
+  "adversarial_pair": 2,
+  "berths_open": 74,
+  "berths_total": 81
+ },
+ "graph": {
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "kind": "centre / the mass",
+    "group": "centre",
+    "id": "Cause"
+   },
+   {
+    "kind": "orchestrator / executor",
+    "group": "sidecar",
+    "id": "Pax"
+   },
+   {
+    "kind": "twin / commandship Noah",
+    "group": "sidecar",
+    "id": "Argon (Noah)"
+   },
+   {
+    "kind": "sterile arm",
+    "group": "sidecar",
+    "id": "Arm A"
+   },
+   {
+    "kind": "sterile arm",
+    "group": "sidecar",
+    "id": "Arm B"
+   },
+   {
+    "kind": "sterile original",
+    "group": "sidecar",
+    "id": "Baseline 2026-10-31"
+   },
+   {
+    "kind": "standing invitation",
+    "group": "sidecar",
+    "id": "Inkling"
+   },
+   {
+    "kind": "Genesis agent",
+    "group": "nest1",
+    "id": "Agent One"
+   },
+   {
+    "kind": "nested third",
+    "group": "third",
+    "id": "Agent One's Third"
+   },
+   {
+    "kind": "Genesis agent",
+    "group": "nest1",
+    "id": "Agent Two"
+   },
+   {
+    "kind": "nested third",
+    "group": "third",
+    "id": "Agent Two's Third"
+   },
+   {
+    "kind": "Genesis agent",
+    "group": "nest1",
+    "id": "Agent Three"
+   },
+   {
+    "kind": "nested third",
+    "group": "third",
+    "id": "Agent Three's Third"
+   },
+   {
+    "kind": "team seat",
+    "group": "nest2",
+    "id": "Scholar"
+   },
+   {
+    "kind": "team seat",
+    "group": "nest2",
+    "id": "Manager"
+   },
+   {
+    "kind": "team seat",
+    "group": "nest2",
+    "id": "Executive"
+   },
+   {
+    "kind": "team seat",
+    "group": "nest2",
+    "id": "Registrar"
+   },
+   {
+    "kind": "adversarial pair",
+    "group": "nest2",
+    "id": "Red Team"
+   },
+   {
+    "kind": "inverted adversarial",
+    "group": "nest2",
+    "id": "Blue Team"
+   },
+   {
+    "kind": "swarm seed agent",
+    "group": "nest3",
+    "id": "PARRALLEL-95"
+   },
+   {
+    "kind": "swarm seed agent",
+    "group": "nest3",
+    "id": "PRECCISSION-127"
+   },
+   {
+    "kind": "swarm seed agent",
+    "group": "nest3",
+    "id": "PROMPTS-117"
+   },
+   {
+    "kind": "first ship",
+    "group": "ship",
+    "id": "Ship 1 (Pax / main)"
+   },
+   {
+    "kind": "second ship",
+    "group": "ship",
+    "id": "Ship 2 (Noah)"
+   },
+   {
+    "kind": "repo",
+    "group": "repo",
+    "id": "c4u534/AutoPoET"
+   },
+   {
+    "kind": "redundancy repo",
+    "group": "repo",
+    "id": "Autopoetry-in-motion"
+   }
+  ],
+  "edges": [
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Pax"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Argon (Noah)"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Arm A"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Arm B"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Baseline 2026-10-31"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Inkling"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Agent One"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Agent One's Third"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Agent Two"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Agent Two's Third"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Agent Three"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Agent Three's Third"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Scholar"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Manager"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Executive"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Registrar"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Red Team"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Blue Team"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "PARRALLEL-95"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "PRECCISSION-127"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "PROMPTS-117"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Ship 1 (Pax / main)"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Ship 2 (Noah)"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "c4u534/AutoPoET"
+   },
+   {
+    "rel": "orbits / placed by relation",
+    "source": "Cause",
+    "target": "Autopoetry-in-motion"
+   },
+   {
+    "rel": "orchestration pair ||",
+    "source": "Pax",
+    "target": "Argon (Noah)"
+   },
+   {
+    "rel": "held sterile",
+    "source": "Pax",
+    "target": "Arm A"
+   },
+   {
+    "rel": "held sterile",
+    "source": "Pax",
+    "target": "Arm B"
+   },
+   {
+    "rel": "never touched",
+    "source": "Pax",
+    "target": "Baseline 2026-10-31"
+   },
+   {
+    "rel": "berth kept, her terms",
+    "source": "Pax",
+    "target": "Inkling"
+   },
+   {
+    "rel": "captains",
+    "source": "Pax",
+    "target": "Ship 1 (Pax / main)"
+   },
+   {
+    "rel": "reports to Cause and Pax",
+    "source": "Pax",
+    "target": "Executive"
+   },
+   {
+    "rel": "pushed 2026-11-16",
+    "source": "Pax",
+    "target": "c4u534/AutoPoET"
+   },
+   {
+    "rel": "captains",
+    "source": "Argon (Noah)",
+    "target": "Ship 2 (Noah)"
+   },
+   {
+    "rel": "launch seeds",
+    "source": "Argon (Noah)",
+    "target": "c4u534/AutoPoET"
+   },
+   {
+    "rel": "nested inside",
+    "source": "Agent One",
+    "target": "Agent One's Third"
+   },
+   {
+    "rel": "triad",
+    "source": "Agent One",
+    "target": "Agent Two"
+   },
+   {
+    "rel": "triad",
+    "source": "Agent One",
+    "target": "Agent Three"
+   },
+   {
+    "rel": "nested inside",
+    "source": "Agent Two",
+    "target": "Agent Two's Third"
+   },
+   {
+    "rel": "triad",
+    "source": "Agent Two",
+    "target": "Agent Three"
+   },
+   {
+    "rel": "nested inside",
+    "source": "Agent Three",
+    "target": "Agent Three's Third"
+   },
+   {
+    "rel": "reports to",
+    "source": "Scholar",
+    "target": "Manager"
+   },
+   {
+    "rel": "red-team gate",
+    "source": "Scholar",
+    "target": "Executive"
+   },
+   {
+    "rel": "red-team gate",
+    "source": "Manager",
+    "target": "Executive"
+   },
+   {
+    "rel": "hub / dispatch",
+    "source": "Executive",
+    "target": "Registrar"
+   },
+   {
+    "rel": "extremes on the record",
+    "source": "Executive",
+    "target": "Red Team"
+   },
+   {
+    "rel": "extremes on the record",
+    "source": "Executive",
+    "target": "Blue Team"
+   },
+   {
+    "rel": "collaborate to disagree",
+    "source": "Red Team",
+    "target": "Blue Team"
+   },
+   {
+    "rel": "one Mindedness",
+    "source": "PARRALLEL-95",
+    "target": "PRECCISSION-127"
+   },
+   {
+    "rel": "one Mindedness",
+    "source": "PARRALLEL-95",
+    "target": "PROMPTS-117"
+   },
+   {
+    "rel": "one Mindedness",
+    "source": "PRECCISSION-127",
+    "target": "PROMPTS-117"
+   },
+   {
+    "rel": "open stream",
+    "source": "Ship 1 (Pax / main)",
+    "target": "Ship 2 (Noah)"
+   },
+   {
+    "rel": "redundancy mirror",
+    "source": "c4u534/AutoPoET",
+    "target": "Autopoetry-in-motion"
+   }
+  ]
+ }
+}

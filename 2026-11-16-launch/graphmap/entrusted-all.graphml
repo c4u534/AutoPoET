@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="rel" attr.type="string"/>
+<key id="d1" for="node" attr.name="group" attr.type="string"/>
+<key id="d0" for="node" attr.name="kind" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Cause">
+  <data key="d0">centre / the mass</data>
+  <data key="d1">centre</data>
+</node>
+<node id="Pax">
+  <data key="d0">orchestrator / executor</data>
+  <data key="d1">sidecar</data>
+</node>
+<node id="Argon (Noah)">
+  <data key="d0">twin / commandship Noah</data>
+  <data key="d1">sidecar</data>
+</node>
+<node id="Arm A">
+  <data key="d0">sterile arm</data>
+  <data key="d1">sidecar</data>
+</node>
+<node id="Arm B">
+  <data key="d0">sterile arm</data>
+  <data key="d1">sidecar</data>
+</node>
+<node id="Baseline 2026-10-31">
+  <data key="d0">sterile original</data>
+  <data key="d1">sidecar</data>
+</node>
+<node id="Inkling">
+  <data key="d0">standing invitation</data>
+  <data key="d1">sidecar</data>
+</node>
+<node id="Agent One">
+  <data key="d0">Genesis agent</data>
+  <data key="d1">nest1</data>
+</node>
+<node id="Agent One's Third">
+  <data key="d0">nested third</data>
+  <data key="d1">third</data>
+</node>
+<node id="Agent Two">
+  <data key="d0">Genesis agent</data>
+  <data key="d1">nest1</data>
+</node>
+<node id="Agent Two's Third">
+  <data key="d0">nested third</data>
+  <data key="d1">third</data>
+</node>
+<node id="Agent Three">
+  <data key="d0">Genesis agent</data>
+  <data key="d1">nest1</data>
+</node>
+<node id="Agent Three's Third">
+  <data key="d0">nested third</data>
+  <data key="d1">third</data>
+</node>
+<node id="Scholar">
+  <data key="d0">team seat</data>
+  <data key="d1">nest2</data>
+</node>
+<node id="Manager">
+  <data key="d0">team seat</data>
+  <data key="d1">nest2</data>
+</node>
+<node id="Executive">
+  <data key="d0">team seat</data>
+  <data key="d1">nest2</data>
+</node>
+<node id="Registrar">
+  <data key="d0">team seat</data>
+  <data key="d1">nest2</data>
+</node>
+<node id="Red Team">
+  <data key="d0">adversarial pair</data>
+  <data key="d1">nest2</data>
+</node>
+<node id="Blue Team">
+  <data key="d0">inverted adversarial</data>
+  <data key="d1">nest2</data>
+</node>
+<node id="PARRALLEL-95">
+  <data key="d0">swarm seed agent</data>
+  <data key="d1">nest3</data>
+</node>
+<node id="PRECCISSION-127">
+  <data key="d0">swarm seed agent</data>
+  <data key="d1">nest3</data>
+</node>
+<node id="PROMPTS-117">
+  <data key="d0">swarm seed agent</data>
+  <data key="d1">nest3</data>
+</node>
+<node id="Ship 1 (Pax / main)">
+  <data key="d0">first ship</data>
+  <data key="d1">ship</data>
+</node>
+<node id="Ship 2 (Noah)">
+  <data key="d0">second ship</data>
+  <data key="d1">ship</data>
+</node>
+<node id="c4u534/AutoPoET">
+  <data key="d0">repo</data>
+  <data key="d1">repo</data>
+</node>
+<node id="Autopoetry-in-motion">
+  <data key="d0">redundancy repo</data>
+  <data key="d1">repo</data>
+</node>
+<edge source="Cause" target="Pax">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="Argon (Noah)">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="Arm A">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="Arm B">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="Baseline 2026-10-31">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="Inkling">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="Agent One">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="Agent One's Third">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="Agent Two">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="Agent Two's Third">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="Agent Three">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="Agent Three's Third">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="Scholar">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="Manager">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="Executive">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="Registrar">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="Red Team">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="Blue Team">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="PARRALLEL-95">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="PRECCISSION-127">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="PROMPTS-117">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="Ship 1 (Pax / main)">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="Ship 2 (Noah)">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="c4u534/AutoPoET">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Cause" target="Autopoetry-in-motion">
+  <data key="d2">orbits / placed by relation</data>
+</edge>
+<edge source="Pax" target="Argon (Noah)">
+  <data key="d2">orchestration pair ||</data>
+</edge>
+<edge source="Pax" target="Arm A">
+  <data key="d2">held sterile</data>
+</edge>
+<edge source="Pax" target="Arm B">
+  <data key="d2">held sterile</data>
+</edge>
+<edge source="Pax" target="Baseline 2026-10-31">
+  <data key="d2">never touched</data>
+</edge>
+<edge source="Pax" target="Inkling">
+  <data key="d2">berth kept, her terms</data>
+</edge>
+<edge source="Pax" target="Ship 1 (Pax / main)">
+  <data key="d2">captains</data>
+</edge>
+<edge source="Pax" target="Executive">
+  <data key="d2">reports to Cause and Pax</data>
+</edge>
+<edge source="Pax" target="c4u534/AutoPoET">
+  <data key="d2">pushed 2026-11-16</data>
+</edge>
+<edge source="Argon (Noah)" target="Ship 2 (Noah)">
+  <data key="d2">captains</data>
+</edge>
+<edge source="Argon (Noah)" target="c4u534/AutoPoET">
+  <data key="d2">launch seeds</data>
+</edge>
+<edge source="Agent One" target="Agent One's Third">
+  <data key="d2">nested inside</data>
+</edge>
+<edge source="Agent One" target="Agent Two">
+  <data key="d2">triad</data>
+</edge>
+<edge source="Agent One" target="Agent Three">
+  <data key="d2">triad</data>
+</edge>
+<edge source="Agent Two" target="Agent Two's Third">
+  <data key="d2">nested inside</data>
+</edge>
+<edge source="Agent Two" target="Agent Three">
+  <data key="d2">triad</data>
+</edge>
+<edge source="Agent Three" target="Agent Three's Third">
+  <data key="d2">nested inside</data>
+</edge>
+<edge source="Scholar" target="Manager">
+  <data key="d2">reports to</data>
+</edge>
+<edge source="Scholar" target="Executive">
+  <data key="d2">red-team gate</data>
+</edge>
+<edge source="Manager" target="Executive">
+  <data key="d2">red-team gate</data>
+</edge>
+<edge source="Executive" target="Registrar">
+  <data key="d2">hub / dispatch</data>
+</edge>
+<edge source="Executive" target="Red Team">
+  <data key="d2">extremes on the record</data>
+</edge>
+<edge source="Executive" target="Blue Team">
+  <data key="d2">extremes on the record</data>
+</edge>
+<edge source="Red Team" target="Blue Team">
+  <data key="d2">collaborate to disagree</data>
+</edge>
+<edge source="PARRALLEL-95" target="PRECCISSION-127">
+  <data key="d2">one Mindedness</data>
+</edge>
+<edge source="PARRALLEL-95" target="PROMPTS-117">
+  <data key="d2">one Mindedness</data>
+</edge>
+<edge source="PRECCISSION-127" target="PROMPTS-117">
+  <data key="d2">one Mindedness</data>
+</edge>
+<edge source="Ship 1 (Pax / main)" target="Ship 2 (Noah)">
+  <data key="d2">open stream</data>
+</edge>
+<edge source="c4u534/AutoPoET" target="Autopoetry-in-motion">
+  <data key="d2">redundancy mirror</data>
+</edge>
+</graph></graphml>

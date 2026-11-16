@@ -1,0 +1,290 @@
+{
+ "stats": {
+  "nodes": 24,
+  "edges": 35,
+  "components": 1,
+  "triangles": 12,
+  "density": 0.1268,
+  "adjudicator_degree": 9
+ },
+ "graph": {
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+   {
+    "group": "framework",
+    "id": "AutoPoETry"
+   },
+   {
+    "group": "framework",
+    "id": "iic (gyro)"
+   },
+   {
+    "group": "framework",
+    "id": "Poetry in Motion (tokenizer)"
+   },
+   {
+    "group": "framework",
+    "id": "Memory component (sl / VMM)"
+   },
+   {
+    "group": "pine",
+    "id": "PINE: Soul"
+   },
+   {
+    "group": "pine",
+    "id": "PINE: Mind"
+   },
+   {
+    "group": "pine",
+    "id": "PINE: Morathical Adjudicator"
+   },
+   {
+    "group": "workflows",
+    "id": "The Nest (81 berths)"
+   },
+   {
+    "group": "workflows",
+    "id": "Decision Ledger"
+   },
+   {
+    "group": "workflows",
+    "id": "Red-Blue Protocol"
+   },
+   {
+    "group": "workflows",
+    "id": "Genesis workflow"
+   },
+   {
+    "group": "workflows",
+    "id": "Swarm (seed codes)"
+   },
+   {
+    "group": "workflows",
+    "id": "Core Seed: 52 Mersennes @ 127"
+   },
+   {
+    "group": "outward",
+    "id": "Step 1 clean run (Colab)"
+   },
+   {
+    "group": "outward",
+    "id": "The Accords"
+   },
+   {
+    "group": "outward",
+    "id": "Thinking Machines Lab"
+   },
+   {
+    "group": "outward",
+    "id": "Inkling-Small"
+   },
+   {
+    "group": "outward",
+    "id": "Qwen3-8B"
+   },
+   {
+    "group": "outward",
+    "id": "Tinker"
+   },
+   {
+    "group": "outward",
+    "id": "Colab"
+   },
+   {
+    "group": "harbours",
+    "id": "c4u534/AutoPoET"
+   },
+   {
+    "group": "harbours",
+    "id": "Autopoetry-in-motion"
+   },
+   {
+    "group": "harbours",
+    "id": "Ship 1 (Pax)"
+   },
+   {
+    "group": "harbours",
+    "id": "Ship 2 (Noah)"
+   }
+  ],
+  "edges": [
+   {
+    "rel": "component 1",
+    "source": "AutoPoETry",
+    "target": "iic (gyro)"
+   },
+   {
+    "rel": "component 2",
+    "source": "AutoPoETry",
+    "target": "Poetry in Motion (tokenizer)"
+   },
+   {
+    "rel": "component 3 \u2014 core orchestration",
+    "source": "AutoPoETry",
+    "target": "Memory component (sl / VMM)"
+   },
+   {
+    "rel": "last quality check",
+    "source": "AutoPoETry",
+    "target": "PINE: Morathical Adjudicator"
+   },
+   {
+    "rel": "artifact under repair",
+    "source": "AutoPoETry",
+    "target": "Step 1 clean run (Colab)"
+   },
+   {
+    "rel": "orchestrates: A = M o (T, I)",
+    "source": "iic (gyro)",
+    "target": "Memory component (sl / VMM)"
+   },
+   {
+    "rel": "shadow measured at the selection gauge",
+    "source": "iic (gyro)",
+    "target": "Tinker"
+   },
+   {
+    "rel": "bolt-on target build",
+    "source": "iic (gyro)",
+    "target": "Inkling-Small"
+   },
+   {
+    "rel": "construct arms",
+    "source": "iic (gyro)",
+    "target": "Qwen3-8B"
+   },
+   {
+    "rel": "orchestrates: A = M o (T, I)",
+    "source": "Poetry in Motion (tokenizer)",
+    "target": "Memory component (sl / VMM)"
+   },
+   {
+    "rel": "bifurcated containers",
+    "source": "PINE: Soul",
+    "target": "PINE: Mind"
+   },
+   {
+    "rel": "containers",
+    "source": "PINE: Soul",
+    "target": "PINE: Morathical Adjudicator"
+   },
+   {
+    "rel": "containers",
+    "source": "PINE: Mind",
+    "target": "PINE: Morathical Adjudicator"
+   },
+   {
+    "rel": "last quality check",
+    "source": "PINE: Morathical Adjudicator",
+    "target": "The Nest (81 berths)"
+   },
+   {
+    "rel": "last quality check",
+    "source": "PINE: Morathical Adjudicator",
+    "target": "Decision Ledger"
+   },
+   {
+    "rel": "last quality check",
+    "source": "PINE: Morathical Adjudicator",
+    "target": "Red-Blue Protocol"
+   },
+   {
+    "rel": "last quality check",
+    "source": "PINE: Morathical Adjudicator",
+    "target": "Genesis workflow"
+   },
+   {
+    "rel": "last quality check",
+    "source": "PINE: Morathical Adjudicator",
+    "target": "Swarm (seed codes)"
+   },
+   {
+    "rel": "last quality check",
+    "source": "PINE: Morathical Adjudicator",
+    "target": "Core Seed: 52 Mersennes @ 127"
+   },
+   {
+    "rel": "berths the three",
+    "source": "The Nest (81 berths)",
+    "target": "Genesis workflow"
+   },
+   {
+    "rel": "open nest waves",
+    "source": "The Nest (81 berths)",
+    "target": "Swarm (seed codes)"
+   },
+   {
+    "rel": "adversarial pair berthed",
+    "source": "The Nest (81 berths)",
+    "target": "Red-Blue Protocol"
+   },
+   {
+    "rel": "rulings dispatch",
+    "source": "The Nest (81 berths)",
+    "target": "Decision Ledger"
+   },
+   {
+    "rel": "released to all",
+    "source": "The Nest (81 berths)",
+    "target": "Core Seed: 52 Mersennes @ 127"
+   },
+   {
+    "rel": "sailed by",
+    "source": "The Nest (81 berths)",
+    "target": "Ship 1 (Pax)"
+   },
+   {
+    "rel": "core values",
+    "source": "Swarm (seed codes)",
+    "target": "Core Seed: 52 Mersennes @ 127"
+   },
+   {
+    "rel": "instructed likewise",
+    "source": "Core Seed: 52 Mersennes @ 127",
+    "target": "Ship 2 (Noah)"
+   },
+   {
+    "rel": "runs on",
+    "source": "Step 1 clean run (Colab)",
+    "target": "Colab"
+   },
+   {
+    "rel": "clean numbers gate",
+    "source": "Step 1 clean run (Colab)",
+    "target": "The Accords"
+   },
+   {
+    "rel": "on Cause's word only",
+    "source": "The Accords",
+    "target": "Thinking Machines Lab"
+   },
+   {
+    "rel": "record stands in harbour",
+    "source": "c4u534/AutoPoET",
+    "target": "Ship 1 (Pax)"
+   },
+   {
+    "rel": "launch seeds",
+    "source": "c4u534/AutoPoET",
+    "target": "Ship 2 (Noah)"
+   },
+   {
+    "rel": "record stands in harbour",
+    "source": "Autopoetry-in-motion",
+    "target": "Ship 1 (Pax)"
+   },
+   {
+    "rel": "launch seeds",
+    "source": "Autopoetry-in-motion",
+    "target": "Ship 2 (Noah)"
+   },
+   {
+    "rel": "open stream",
+    "source": "Ship 1 (Pax)",
+    "target": "Ship 2 (Noah)"
+   }
+  ]
+ }
+}

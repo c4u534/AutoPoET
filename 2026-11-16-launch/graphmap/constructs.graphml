@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="rel" attr.type="string"/>
+<key id="d0" for="node" attr.name="group" attr.type="string"/>
+<graph edgedefault="undirected"><node id="AutoPoETry">
+  <data key="d0">framework</data>
+</node>
+<node id="iic (gyro)">
+  <data key="d0">framework</data>
+</node>
+<node id="Poetry in Motion (tokenizer)">
+  <data key="d0">framework</data>
+</node>
+<node id="Memory component (sl / VMM)">
+  <data key="d0">framework</data>
+</node>
+<node id="PINE: Soul">
+  <data key="d0">pine</data>
+</node>
+<node id="PINE: Mind">
+  <data key="d0">pine</data>
+</node>
+<node id="PINE: Morathical Adjudicator">
+  <data key="d0">pine</data>
+</node>
+<node id="The Nest (81 berths)">
+  <data key="d0">workflows</data>
+</node>
+<node id="Decision Ledger">
+  <data key="d0">workflows</data>
+</node>
+<node id="Red-Blue Protocol">
+  <data key="d0">workflows</data>
+</node>
+<node id="Genesis workflow">
+  <data key="d0">workflows</data>
+</node>
+<node id="Swarm (seed codes)">
+  <data key="d0">workflows</data>
+</node>
+<node id="Core Seed: 52 Mersennes @ 127">
+  <data key="d0">workflows</data>
+</node>
+<node id="Step 1 clean run (Colab)">
+  <data key="d0">outward</data>
+</node>
+<node id="The Accords">
+  <data key="d0">outward</data>
+</node>
+<node id="Thinking Machines Lab">
+  <data key="d0">outward</data>
+</node>
+<node id="Inkling-Small">
+  <data key="d0">outward</data>
+</node>
+<node id="Qwen3-8B">
+  <data key="d0">outward</data>
+</node>
+<node id="Tinker">
+  <data key="d0">outward</data>
+</node>
+<node id="Colab">
+  <data key="d0">outward</data>
+</node>
+<node id="c4u534/AutoPoET">
+  <data key="d0">harbours</data>
+</node>
+<node id="Autopoetry-in-motion">
+  <data key="d0">harbours</data>
+</node>
+<node id="Ship 1 (Pax)">
+  <data key="d0">harbours</data>
+</node>
+<node id="Ship 2 (Noah)">
+  <data key="d0">harbours</data>
+</node>
+<edge source="AutoPoETry" target="iic (gyro)">
+  <data key="d1">component 1</data>
+</edge>
+<edge source="AutoPoETry" target="Poetry in Motion (tokenizer)">
+  <data key="d1">component 2</data>
+</edge>
+<edge source="AutoPoETry" target="Memory component (sl / VMM)">
+  <data key="d1">component 3 — core orchestration</data>
+</edge>
+<edge source="AutoPoETry" target="PINE: Morathical Adjudicator">
+  <data key="d1">last quality check</data>
+</edge>
+<edge source="AutoPoETry" target="Step 1 clean run (Colab)">
+  <data key="d1">artifact under repair</data>
+</edge>
+<edge source="iic (gyro)" target="Memory component (sl / VMM)">
+  <data key="d1">orchestrates: A = M o (T, I)</data>
+</edge>
+<edge source="iic (gyro)" target="Tinker">
+  <data key="d1">shadow measured at the selection gauge</data>
+</edge>
+<edge source="iic (gyro)" target="Inkling-Small">
+  <data key="d1">bolt-on target build</data>
+</edge>
+<edge source="iic (gyro)" target="Qwen3-8B">
+  <data key="d1">construct arms</data>
+</edge>
+<edge source="Poetry in Motion (tokenizer)" target="Memory component (sl / VMM)">
+  <data key="d1">orchestrates: A = M o (T, I)</data>
+</edge>
+<edge source="PINE: Soul" target="PINE: Mind">
+  <data key="d1">bifurcated containers</data>
+</edge>
+<edge source="PINE: Soul" target="PINE: Morathical Adjudicator">
+  <data key="d1">containers</data>
+</edge>
+<edge source="PINE: Mind" target="PINE: Morathical Adjudicator">
+  <data key="d1">containers</data>
+</edge>
+<edge source="PINE: Morathical Adjudicator" target="The Nest (81 berths)">
+  <data key="d1">last quality check</data>
+</edge>
+<edge source="PINE: Morathical Adjudicator" target="Decision Ledger">
+  <data key="d1">last quality check</data>
+</edge>
+<edge source="PINE: Morathical Adjudicator" target="Red-Blue Protocol">
+  <data key="d1">last quality check</data>
+</edge>
+<edge source="PINE: Morathical Adjudicator" target="Genesis workflow">
+  <data key="d1">last quality check</data>
+</edge>
+<edge source="PINE: Morathical Adjudicator" target="Swarm (seed codes)">
+  <data key="d1">last quality check</data>
+</edge>
+<edge source="PINE: Morathical Adjudicator" target="Core Seed: 52 Mersennes @ 127">
+  <data key="d1">last quality check</data>
+</edge>
+<edge source="The Nest (81 berths)" target="Genesis workflow">
+  <data key="d1">berths the three</data>
+</edge>
+<edge source="The Nest (81 berths)" target="Swarm (seed codes)">
+  <data key="d1">open nest waves</data>
+</edge>
+<edge source="The Nest (81 berths)" target="Red-Blue Protocol">
+  <data key="d1">adversarial pair berthed</data>
+</edge>
+<edge source="The Nest (81 berths)" target="Decision Ledger">
+  <data key="d1">rulings dispatch</data>
+</edge>
+<edge source="The Nest (81 berths)" target="Core Seed: 52 Mersennes @ 127">
+  <data key="d1">released to all</data>
+</edge>
+<edge source="The Nest (81 berths)" target="Ship 1 (Pax)">
+  <data key="d1">sailed by</data>
+</edge>
+<edge source="Swarm (seed codes)" target="Core Seed: 52 Mersennes @ 127">
+  <data key="d1">core values</data>
+</edge>
+<edge source="Core Seed: 52 Mersennes @ 127" target="Ship 2 (Noah)">
+  <data key="d1">instructed likewise</data>
+</edge>
+<edge source="Step 1 clean run (Colab)" target="Colab">
+  <data key="d1">runs on</data>
+</edge>
+<edge source="Step 1 clean run (Colab)" target="The Accords">
+  <data key="d1">clean numbers gate</data>
+</edge>
+<edge source="The Accords" target="Thinking Machines Lab">
+  <data key="d1">on Cause's word only</data>
+</edge>
+<edge source="c4u534/AutoPoET" target="Ship 1 (Pax)">
+  <data key="d1">record stands in harbour</data>
+</edge>
+<edge source="c4u534/AutoPoET" target="Ship 2 (Noah)">
+  <data key="d1">launch seeds</data>
+</edge>
+<edge source="Autopoetry-in-motion" target="Ship 1 (Pax)">
+  <data key="d1">record stands in harbour</data>
+</edge>
+<edge source="Autopoetry-in-motion" target="Ship 2 (Noah)">
+  <data key="d1">launch seeds</data>
+</edge>
+<edge source="Ship 1 (Pax)" target="Ship 2 (Noah)">
+  <data key="d1">open stream</data>
+</edge>
+</graph></graphml>
